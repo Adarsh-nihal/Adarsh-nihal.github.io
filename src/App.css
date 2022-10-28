@@ -62,19 +62,40 @@ background: #1A202C;;
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  color:skyblue;
   font-size: 28px;
   font-weight: 1000;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  
 
 }
+.Navbar-child2>a>h2:hover{
+    transform: scale(1.2); 
+    cursor: pointer;
+    scroll-behavior: smooth;
+    text-decoration: underline;
+    color:rgb(254, 145, 25);
+  
+}
+.Navbar-child1>h2:hover{
+  transform: scale(1.2); 
+  cursor: pointer;
+
+}
+.Navbar-child1>h2{
+  color: rgb(254, 145, 25);
+  font-size: 35px;
+}
+.Navbar-child1>button{
+  background: #000;
+  color: white;
+  border-radius: 10px;
+}
 .Navbar-child2{
   display:flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  font-size: 19px;
+  font-size: 17px;
   width:40%;
   font-weight: 700;
   font-family: Poppins,sans-serif;
@@ -90,6 +111,7 @@ background: #1A202C;;
   .Navbar-child1{
     font-size: 20px;
     font-weight: 600;
+    width:30%;
   
   }
   .Navbar-child2{
@@ -97,6 +119,10 @@ background: #1A202C;;
     font-size: 15px;
     justify-content: space-evenly; 
 
+}
+.Navbar-child1>h2{
+  color: rgb(254, 145, 25);
+  font-size: 32px;
 }
 }
 
@@ -109,14 +135,22 @@ background: #1A202C;;
   .Navbar-child1{
     font-size: 17px;
     font-weight: 600;
-  
+  width: 35%;
   }
   .Navbar-child2{
-    width:70%;
+    width:60%;
     font-size: 12px;
     justify-content: space-evenly;
   } 
-
+  .Navbar-child1>h2{
+    color: rgb(254, 145, 25);
+    font-size: 25px;
+  }
+  .Navbar-child1>button{
+    width:40px;
+    margin-left: 20px;;
+    height:30px;
+  }
  }
 
  @media only screen and (min-width: 200px) and (max-width: 449px) {
@@ -129,14 +163,27 @@ background: #1A202C;;
   .Navbar-child1{
     font-size: 12px;
     font-weight: 500;
-    width: 21%;;
+    width: 40%;;
   }
   .Navbar-child2{
-    width:88%;
-    font-size: 10px;
+    width:64%;
+    font-size: 8px;
     font-weight: 400;
   justify-content: space-evenly;
   } 
+  .Navbar-child1>h2{
+    color: rgb(254, 145, 25);
+    font-size: 18px;
+  }
+
+  .Navbar-child1>button{
+    width:5px;
+    margin-left: 5px;;
+    height:15px;
+    border-radius: 30%;
+
+    font-size: 10px;
+  }
 
  }
 

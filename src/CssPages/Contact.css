@@ -1,0 +1,257 @@
+
+.Contact{
+    width:95%;
+    text-align: center;
+}
+.Contact>h1{
+    margin-top: 50px;;
+    font-size: 50px;;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(254, 145, 25);
+
+}
+.ContactDetails{
+    margin-top: 100px;
+    width:35%;
+    margin-left: 120px;
+}
+.ContactDetails>input{
+border-radius: 20px;
+color:teal;
+font-size: 18px;
+padding: 25px;
+}
+.ContactDetails>textarea{
+    color:teal;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.ContactDetails>button{
+    color:black;
+    margin-top: 40px;
+    width: 130px;;
+    background:skyblue;
+    border-radius: 15px;
+ font-size: 20px;  
+ padding: 5px;
+  margin-right: 300px;
+}
+.Flex{
+    display: flex;
+}
+.ContactIcon{
+    margin-left: 130px;
+    margin-top: 80px;
+
+}
+.ContactIcon>div>img{
+    width:80%;
+    border-radius: 40px;
+}
+.logo{
+    margin:auto;
+    width:30%;
+    margin-top: 40px;
+    display: flex;
+}
+.logo>button{
+    margin-left: 30px;
+    
+}
+.btn2:hover{
+   transform: scale(1.2);
+}
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(254, 145, 25)
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .ContactIcon{
+        margin-left: 80px;
+        margin-top: 40px;
+        width: 100%;
+    
+    }
+
+    .ContactIcon>div>img{
+        width:100%;
+        border-radius: 40px;
+        height: 260px;
+    }
+   
+    .Contact>h1{
+        margin-top: 35px;;
+
+    }
+    .ContactDetails{
+        margin-top: 40px;
+        width:35%;
+        margin-left: 120px;
+
+    }
+    .footer{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:rgb(254, 145, 25)
+
+    }
+   
+    
+    
+}
+
+@media only screen and (min-width: 451px) and (max-width: 600px) {
+    .Contact>h1{
+        margin-top: 35px;;
+        font-size: 45px;;
+
+    }
+    
+    .Flex{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ContactIcon>div>img{
+        width:100%;
+        border-radius: 40px;
+        height: 260px;
+
+    }
+    
+    .ContactDetails{
+        margin: auto;;
+        margin-top: 40px;
+        width:90%;
+
+    }
+    .ContactDetails>button{
+        color:black;
+        margin-top: 30px;
+        width: 130px;;
+        background:skyblue;
+        border-radius: 15px;
+     font-size: 18px;  
+
+    }
+    .ContactIcon{
+        margin: auto;;
+        margin-top: 30px;
+        width: 100%;
+       
+    
+    }
+    .ContactIcon>div>img{
+        margin: auto;
+        width:90%;
+        border-radius: 40px;
+
+    }
+   
+    .footer{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 15px;
+       
+    }
+    .logo{
+        margin-left: 90px;
+       
+        width:30%;
+        margin-top: 40px;
+        display: flex;
+    }
+    .logo>button{
+        margin-left: 30px;
+        
+    }
+  
+
+}
+
+@media only screen and (min-width: 250px) and (max-width: 450px) {
+
+    .Contact>h1{
+        margin-top: 35px;;
+        font-size: 35px;;
+
+    }
+    
+    .Flex{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ContactIcon>div>img{
+        width:100%;
+        border-radius: 40px;
+        height: 260px;
+
+    }
+    
+    .ContactDetails{
+        margin: auto;;
+        margin-top: 40px;
+        width:95%;
+        margin-left: 10px;
+
+    }
+    .ContactDetails>input{
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 25px;
+    }
+    .ContactDetails>textarea{
+        margin-top: 40px;
+        border-radius: 20px;
+    }
+    .ContactDetails>button{
+        color:black;
+        margin-top: 20px;
+        width: 100px;;
+        background:skyblue;
+        border-radius: 15px;
+     font-size: 14px;  
+     padding: 5px;
+      margin-right: 0px;
+    }
+    .ContactIcon{
+        margin: auto;;
+        margin-top: 30px;
+        width: 100%;
+       
+    
+    }
+    .ContactIcon>div>img{
+        margin: auto;
+        width:90%;
+        border-radius: 40px;
+    }
+   
+    .footer{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 13px;
+       
+    }
+    .logo{
+        margin-left: 40px;
+        width:20%;
+        margin-top: 40px;
+        display: flex;
+    }
+    .logo>button{
+        margin-left: 20px;
+        
+    }
+
+}

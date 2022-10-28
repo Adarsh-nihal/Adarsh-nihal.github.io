@@ -1,5 +1,4 @@
 .Project{
-    color:white;
     width:65%;
     margin: auto;;
     text-align: center;
@@ -9,19 +8,22 @@
     margin-top: 50px;;
     font-size: 50px;;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: skyblue;
+    color:rgb(254, 145, 25);
+
 }
 .ProjectGrid{
     margin-top: 50px;;
 
 }
+.ProjectGrid>div:hover{
+    transform: scale(1.1);
+}
 .Project1{
     width:100%;
     margin:auto;
     display: flex;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     border-radius: 15px;
-    background-color:skyblue;
+   
 }
 .Project1>div{
     width:80%;
@@ -59,12 +61,15 @@
     font-weight: 500;
  
 }
-.ProjectD>button{
+.btn{
    margin-top: 30px;
    color: white;
 
 }
-
+.btn:hover{
+    transform:scale(1.16);
+    color: black;
+}
 @media only screen and (min-width: 701px) and (max-width: 900px) {
     .Project{
         width:95%; 
@@ -110,7 +115,7 @@
         font-weight: 500;
      
     }
-    .ProjectD>button{
+    .btn{
         margin-top: 20px;
         color: white;
      margin-bottom: 10px;
@@ -121,7 +126,6 @@
 @media only screen and (min-width: 450px) and (max-width: 549px) {
   
     .Project{
-        color:white;
         width:100%;
         margin: auto;;
         text-align: center;
@@ -169,16 +173,11 @@ margin-left: 25px;
         margin-left: 40px;
      
 }
-.ProjectD>button{
+.btn{
     margin-top: 15px;
     color: white;
-    margin-left: 60px;
+    margin-left: 20px;
  margin-bottom: 10px;
- }
- .ProjectD>button~button{
-
-    margin-left: 10px;
-
  }
 }
 
@@ -213,6 +212,7 @@ margin-left: 25px;
         margin-left: 40px;
         margin-top: 8px;
     margin-bottom: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
     }
@@ -228,18 +228,14 @@ margin-left: 25px;
         margin-left: 40px;
      
 }
-.ProjectD>button{
+.btn{
     margin-top: 12px;
     color: white;
-    margin-left: 60px;
+    margin-left: 20px;
  margin-bottom: 10px;
  font-size: 12px;
  }
- .ProjectD>button~button{
-
-    margin-left: 10px;
-
- }
+ 
 
 
 }
