@@ -27,7 +27,7 @@ const Contact = () => {
           <div className='logo'>
           <Link href="https://github.com/Adarsh-nihal"> <Button className='btn2' bg="#A0AEC0" ><Icon  w={[4,5]} h={12} as={BsGithub}/></Button></Link> 
           <Link href="https://www.linkedin.com/in/adarsh-gupta-b66806222/">  <Button className='btn2' colorScheme="linkedin" ml="20px" ><Icon  w={[4,5]} h={12} as={BsLinkedin} /></Button></Link>
-           <Link href="tel:+9161674761"> <Button className='btn2' bg="#48BB78" ml="20px"><PhoneIcon  w={[4,5]} h={12} /></Button></Link>
+           <Link href="tel:+919161674761"> <Button className='btn2' bg="#48BB78" ml="20px"><PhoneIcon  w={[4,5]} h={12} /></Button></Link>
            <Link href="mailto:adarsh474747@gmail.com"> <Button className='btn2'  bgGradient={[
     'linear(to-tr, teal.300, yellow.400)',
     'linear(to-t, blue.200, teal.500)',
