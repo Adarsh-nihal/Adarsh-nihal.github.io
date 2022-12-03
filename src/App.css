@@ -48,12 +48,10 @@ background: #1A202C;;
   position: -webkit-sticky;
   position: sticky;
   top: 0px;;
-  z-index: 5;
+  z-index:4;
   padding-top: 17px;;
   padding-bottom: 12px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-  background:#1A202C;
-  
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;  
 
 }
  .Navbar-child1{

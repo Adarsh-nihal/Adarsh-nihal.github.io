@@ -8,10 +8,24 @@ import "../CssPages/Contact.css"
 const Contact = () => {
   return (
     <div id="contactScroll">
-        <div className="Contact">
+        <div className="Contact" >
             <h1>Contact</h1>
-          <div className='Flex'>
-            <div className='ContactDetails'>
+          <div className='Flex' data-aos="fade-up"
+    data-aos-offset="-100"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
+            <div className='ContactDetails' data-aos="fade-up"
+    data-aos-offset="-100"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
                 <Input  placeholder='enter your name' />
                 <Input mt="40px" placeholder='enter your email' />
                <Textarea placeholder='Type your message...' />
@@ -22,9 +36,15 @@ const Contact = () => {
                        <img src="https://gr7800.github.io/static/media/bg1.d4a402f4b5da5590c675.gif" />
                     </div>
             </div>
-
           </div>
-          <div className='logo'>
+          <div className='logo' data-aos="fade-up"
+    data-aos-offset="-300"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
           <Link href="https://github.com/Adarsh-nihal"> <Button className='btn2' bg="#A0AEC0" ><Icon  w={[4,5]} h={12} as={BsGithub}/></Button></Link> 
           <Link href="https://www.linkedin.com/in/adarsh-gupta-b66806222/">  <Button className='btn2' colorScheme="linkedin" ml="20px" ><Icon  w={[4,5]} h={12} as={BsLinkedin} /></Button></Link>
            <Link href="tel:+919161674761"> <Button className='btn2' bg="#48BB78" ml="20px"><PhoneIcon  w={[4,5]} h={12} /></Button></Link>

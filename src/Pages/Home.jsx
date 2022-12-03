@@ -11,15 +11,30 @@ import React from 'react'
 import '../CssPages/Home.css';
 
 const Home = () => {
+  
   return (
     <div id="hero">
     <div className='Home' >
-      <div className='Home-child1' >
+      <div className='Home-child1'  data-aos="fade-up"
+    data-aos-offset="-100"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center" >
           <div className='Img'  >
             <Image w="90%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107548299?v=4"/>
             </div>
          </div>
-      <div className="Home-child2" >
+      <div className="Home-child2"  data-aos="fade-up"
+    data-aos-offset="-100"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
          <h1>
            Full Stack Web Developer
 
@@ -29,7 +44,7 @@ const Home = () => {
          <p>I am a web developer with a vast array of knowledge in many different frontend and backend languages, responsive frameworks, database, and best code practices.</p>
          <div className='btn1'>
        <Link href="https://drive.google.com/file/d/1_lLxgSDQA40TQoYdYtWD77HGeBdMC1Du/view?usp=sharing"> 
-       <Button fontFamily="sans-serif" className='button' fontSize={{base:'1.1em'}}
+       <Button fontFamily="sans-serif" className='button'z fontSize={{base:'1.1em'}}
        color="black"  bg="skyblue">Resume|<ViewIcon/></Button>
        </Link> 
        <Link href="https://github.com/Adarsh-nihal"> <Button ml="4px"  fontSize={{base:'1.1em'}} fontFamily="sans-serif" className='button'  color="black"  bgGradient='linear(to-r, darkgray,grey,white)' >Github <Icon as={BsGithub} />
