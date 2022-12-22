@@ -3,11 +3,12 @@
     margin-top: 100px;;
     width:80%;
     text-align:center;
+    overflow: hidden;
 }
 .Stats>h1{
-    font-size: 35px;;
+    font-size: 30px;;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(254, 145, 25);
+    color:salmon;
     margin-bottom: 30px;;
 }
 .StatsChild1{

@@ -13,12 +13,11 @@ function App() {
   const[theme,setTheme]=useState(false)
   const style = {
     light: {
-    
       background:"black",
+     
     },
     dark: {
-     
-      background: "#1A202C",
+      background: "#011627",
     
     }
   };

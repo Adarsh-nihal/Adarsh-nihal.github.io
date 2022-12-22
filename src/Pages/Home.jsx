@@ -1,12 +1,7 @@
-import { Box,Flex,Image,Text,Button, RangeSlider,
-  RangeSliderTrack,
-  RangeSliderFilledTrack,
-  RangeSliderThumb,
-  Link,Icon} from '@chakra-ui/react'
-import { ViewIcon } from '@chakra-ui/icons'
-import { BsLinkedin,BsGithub } from 'react-icons/bs'
-import {MdGraphicEq } from 'react-icons/md'
-
+import {Image,Button,Icon} from '@chakra-ui/react'
+import { ViewIcon,DownloadIcon } from '@chakra-ui/icons'
+import {BsGithub } from 'react-icons/bs'
+import Typical from "react-typical"
 import React from 'react'
 import '../CssPages/Home.css';
 
@@ -14,8 +9,8 @@ const Home = () => {
   
   return (
     <div id="hero">
-    <div className='Home' >
-      <div className='Home-child1'  data-aos="fade-up"
+    <div className='Home'>
+      <div className='Home-child1'  data-aos="fade-right"
     data-aos-offset="-100"
     data-aos-delay="50"
     data-aos-duration="1000"
@@ -23,36 +18,65 @@ const Home = () => {
     data-aos-mirror="true"
     data-aos-once="false"
     data-aos-anchor-placement="top-center" >
+      <div className="round_css"></div>
           <div className='Img'  >
-            <Image w="90%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107548299?v=4"/>
+            <Image  w="90%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107548299?v=4"/>
             </div>
          </div>
-      <div className="Home-child2"  data-aos="fade-up"
-    data-aos-offset="-100"
+      <div className="Home-child2"  data-aos="fade-left"
+    data-aos-offset="-150"
     data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="false"
     data-aos-anchor-placement="top-center">
-         <h1>
-           Full Stack Web Developer
-
+<h5>
+         <Typical
+          steps={[
+            "Hello World !",
+            2000,
+            "नमस्ते दुनिया 🙏",
+            2000,
+            "নমস্কার বিশ্ব 🙏",
+            2000,
+          ]}
+         loop={Infinity}
+         wrapper="p"
+         />
+         </h5>
+<h2 >Adarsh Gupta</h2>
+      <h1>
+         <Typical
+          steps={[
+            "HI I AM ADARSH GUPTA",
+            2000,
+            "A PASSIONATE FULL STACK WEB DEVELOPER",
+            2000,
+          ]}
+         loop={Infinity}
+         wrapper="p"
+         />
          </h1>
-         <h2 >Adarsh Gupta</h2>
 
          <p>I am a web developer with a vast array of knowledge in many different frontend and backend languages, responsive frameworks, database, and best code practices.</p>
          <div className='btn1'>
-       <Link href="https://drive.google.com/file/d/1_lLxgSDQA40TQoYdYtWD77HGeBdMC1Du/view?usp=sharing"> 
-       <Button fontFamily="sans-serif" className='button'z fontSize={{base:'1.1em'}}
+       <a  target={"_blank"} href="https://drive.google.com/file/d/1_lLxgSDQA40TQoYdYtWD77HGeBdMC1Du/view?usp=sharing"> 
+       <Button fontSize="13px" fontFamily="sans-serif" className='button' 
        color="black"  bg="skyblue">Resume|<ViewIcon/></Button>
-       </Link> 
-       <Link href="https://github.com/Adarsh-nihal"> <Button ml="4px"  fontSize={{base:'1.1em'}} fontFamily="sans-serif" className='button'  color="black"  bgGradient='linear(to-r, darkgray,grey,white)' >Github <Icon as={BsGithub} />
+       </a> 
+       <a
+          target={"_blank"}
+          href="https://drive.google.com/u/0/uc?id=1_lLxgSDQA40TQoYdYtWD77HGeBdMC1Du&export=download"
+        >
+          
+          <Button  fontSize="13px" ml="5px"  fontFamily="sans-serif" className='button'
+       color="black"  bg="skyblue">Resume|<DownloadIcon /></Button>
+        </a> 
+       <a  target={"_blank"} href="https://github.com/Adarsh-nihal"> <Button ml="2px" fontSize="13px"   fontFamily="sans-serif" className='button'  color="black"  bgGradient='linear(to-r, darkgray,grey,white)' >Github <Icon as={BsGithub} />
         </Button>
-        </Link>
-        <Link href="https://www.linkedin.com/in/adarsh-gupta-b66806222/"> <Button ml="4px"  fontSize={{base:'1.1em'}}  fontFamily="sans-serif" className='button'  color="white" colorScheme="linkedin">Linked<Icon   as={BsLinkedin}/>
-        </Button>
-        </Link>  
+        </a>
+       
         
        
 
@@ -61,20 +85,8 @@ const Home = () => {
       </div>
      </div>
 
-     <div  className="slider">
-     <RangeSlider aria-label={['min', 'max']} defaultValue={[1, 99]}>
-  <RangeSliderTrack bg='skyblue'>
-    <RangeSliderFilledTrack bg='rgb(254, 145, 25)' />
-  </RangeSliderTrack>
-  <RangeSliderThumb boxSize={1} index={0}>
-    <Box color='red' />
-  </RangeSliderThumb>
-  <RangeSliderThumb boxSize={1} index={1}>
-    <Box color='Green' as={MdGraphicEq} />
-  </RangeSliderThumb>
-</RangeSlider>
-</div>
-    </div>
+      
+</div> 
   )
 }
 

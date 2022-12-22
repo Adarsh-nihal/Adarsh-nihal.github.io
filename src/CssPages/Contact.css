@@ -1,28 +1,30 @@
 
 .Contact{
-    width:95%;
+    width:90%;
+    margin: auto;;
     text-align: center;
+    overflow: hidden;
+    margin-top: 100px;;
 }
 .Contact>h1{
-    margin-top: 50px;;
-    font-size: 50px;;
+    font-size: 35px;;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(254, 145, 25);
+    color:salmon;
 
 }
 .ContactDetails{
-    margin-top: 100px;
-    width:35%;
+    margin-top: 70px;
+    width:30%;
     margin-left: 120px;
 }
 .ContactDetails>input{
 border-radius: 20px;
-color:teal;
+color:white;
 font-size: 18px;
 padding: 25px;
 }
 .ContactDetails>textarea{
-    color:teal;
+    color:white;
     margin-top: 40px;
     border-radius: 20px;
 }
@@ -30,7 +32,7 @@ padding: 25px;
     color:black;
     margin-top: 40px;
     width: 130px;;
-    background:skyblue;
+    background:salmon;;
     border-radius: 15px;
  font-size: 20px;  
  padding: 5px;
@@ -45,7 +47,7 @@ padding: 25px;
 
 }
 .ContactIcon>div>img{
-    width:80%;
+    width:70%;
     border-radius: 40px;
 }
 .logo{
@@ -67,7 +69,7 @@ padding: 25px;
     padding-bottom: 10px;
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(254, 145, 25)
+    color:salmon
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
@@ -83,11 +85,6 @@ padding: 25px;
         border-radius: 40px;
         height: 260px;
     }
-   
-    .Contact>h1{
-        margin-top: 35px;;
-
-    }
     .ContactDetails{
         margin-top: 40px;
         width:35%;
@@ -99,8 +96,7 @@ padding: 25px;
         padding-bottom: 10px;
         font-size: 16px;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color:rgb(254, 145, 25)
-
+        color:salmon;
     }
    
     
@@ -108,8 +104,10 @@ padding: 25px;
 }
 
 @media only screen and (min-width: 451px) and (max-width: 600px) {
+    .Contact{
+        margin-top: 70px;
+    }
     .Contact>h1{
-        margin-top: 35px;;
         font-size: 45px;;
 
     }
@@ -137,7 +135,7 @@ padding: 25px;
         color:black;
         margin-top: 30px;
         width: 130px;;
-        background:skyblue;
+        background:salmon;;
         border-radius: 15px;
      font-size: 18px;  
 
@@ -178,10 +176,12 @@ padding: 25px;
 }
 
 @media only screen and (min-width: 250px) and (max-width: 450px) {
-
+.Contact{
+    margin-top: 60px;
+}
     .Contact>h1{
-        margin-top: 35px;;
-        font-size: 35px;;
+      
+        font-size: 30px;;
 
     }
     
@@ -218,7 +218,7 @@ padding: 25px;
         color:black;
         margin-top: 20px;
         width: 100px;;
-        background:skyblue;
+        background:salmon;;
         border-radius: 15px;
      font-size: 14px;  
      padding: 5px;

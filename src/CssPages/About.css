@@ -2,26 +2,27 @@
 .About{
     width:55%;
     margin: auto;;
+    margin-top: 110px;;
     text-align: center;
+    overflow: hidden;
 }
 .About>h1{
-    margin-top: 50px;;
-    font-size: 55px;;
+    font-size: 35px;;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(254, 145, 25);
+    color:salmon
 
 }
 .About>h2{
-    color:skyblue;
-    font-size: 40px;
+    color:salmon;;
+    font-size: 25px;
     margin-top: 40px;
 }
 
 .About>p{
     margin-top: 12px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
-    color: teal;
+    color:white
 }
 .About>p~p{
     margin-top: 40px;
@@ -32,20 +33,22 @@
         color:white;
         width:100%;
         margin: auto;;
+        margin-top: 80px;
         text-align: center;
     }
     .About>h1{
-        margin-top: 20px;;
-        font-size: 40px;; 
+        font-size: 30px;; 
     }
     .About>h2{
-        color: skyblue;
+        color: salmon;;
         margin-top: 20px;
-        font-size: 30px;
+        font-size: 20px;
     }
     .About>p{
         margin-top: 12px;
-        font-size: 13px;
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .About>p~p{
         margin-top: 30px;
@@ -58,14 +61,14 @@
         color:white;
         width:100%;
         margin: auto;;
+        margin-top: 80px;
         text-align: center;
     }
     .About>h1{
-        margin-top: 20px;;
         font-size: 40px;; 
     }
     .About>h2{
-        color: skyblue;
+        color: salmon;;
         font-size: 30px;
         margin-top:30px;
     }

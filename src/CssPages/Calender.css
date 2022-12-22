@@ -6,14 +6,14 @@
 }
 .calender>h1{
    
-    font-size: 35px;;
+    font-size: 30px;;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(254, 145, 25);
+    color:salmon;
     margin-bottom: 50px;;
 }
 .calenderChild{
     margin: auto;
-    color:rgb(254, 145, 25);
+    color:salmon;
     width: 60%;
   }
   .calenderChild:hover{
@@ -30,7 +30,7 @@
     }
     .calenderChild{
         margin: auto;
-        color:rgb(254, 145, 25);
+        color:salmon;
         width: 100%;
         font-size: 20px;
       }
@@ -46,7 +46,7 @@
     }
     .calenderChild{
         margin: auto;
-        color:rgb(254, 145, 25);
+        color:salmon;
         width: 100%;
         font-size: 20px;
         margin-top: 30px;
@@ -55,7 +55,7 @@
    
         font-size: 25px;;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color:rgb(254, 145, 25);
+        color:salmon;
         margin-bottom: 20px;;
     }
   }
@@ -69,7 +69,7 @@
     }
     .calenderChild{
         margin: auto;
-        color:rgb(254, 145, 25);
+        color:salmon;
         width: 90%;
         margin-top: 20px;
        
@@ -78,7 +78,7 @@
    
         font-size: 20px;;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color:rgb(254, 145, 25);
+        color:salmon;
         margin-bottom: 20px;;
     }
     .calenderChild:hover{

@@ -66,13 +66,39 @@ background: #1A202C;;
  
 
 }
-.Navbar-child2>a>h2:hover{
-    transform: scale(1.2); 
-    cursor: pointer;
-    scroll-behavior: smooth;
-    text-decoration: underline;
-    color:rgb(254, 145, 25);
+
+.section_wrapper{
+  display: flex;
+  gap:15px;
+  animation:bottom_to_top 0.3s linear
+}
+.nav_catagory {
+  padding: 10px 2px;
+  transition: 200ms;
+  font-size: 18px;
+  color:  salmon;;;
   
+}
+.nav_catagory:hover {
+  background-color: #0e5e6f;
+  border-radius: 7px;
+}
+.nav_catagory::before {
+  content: "<";
+  visibility: hidden;
+}
+.nav_catagory:hover::before {
+  content: "<";
+  visibility: visible;
+  animation: rotate 20s linear infinite;
+}
+.nav_catagory::after {
+  content: "/>";
+  visibility: hidden;
+}
+.nav_catagory:hover::after {
+  content: "/>";
+  visibility: visible;
 }
 .Navbar-child1>h2:hover{
   transform: scale(1.2); 
@@ -80,7 +106,7 @@ background: #1A202C;;
 
 }
 .Navbar-child1>h2{
-  color: rgb(254, 145, 25);
+  color:salmon;
   font-size: 35px;
 }
 .Navbar-child1>button{
@@ -88,18 +114,7 @@ background: #1A202C;;
   color: white;
   border-radius: 10px;
 }
-.Navbar-child2{
-  display:flex;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-  font-size: 17px;
-  width:40%;
-  font-weight: 700;
-  font-family: Poppins,sans-serif;
-    text-decoration: none;
-    color:skyblue
-} 
+
 @media only screen and (min-width: 676px) and (max-width: 965px) {
   .Navbar{
     padding-top: 15px;;
@@ -112,19 +127,20 @@ background: #1A202C;;
     width:30%;
   
   }
-  .Navbar-child2{
-    width:70%;
-    font-size: 15px;
-    justify-content: space-evenly; 
+  .nav_catagory {
+    padding: 10px 0px;
+    transition: 200ms;
+    font-size: 14px;
+    color: salmon;;
+  }
 
-}
 .Navbar-child1>h2{
-  color: rgb(254, 145, 25);
+  color:salmon;
   font-size: 32px;
 }
 }
 
-@media only screen and (min-width: 450px) and (max-width: 675px) {
+@media screen and (max-width: 675px) {
   .Navbar{
     padding-top: 15px;;
     padding-bottom: 10px;
@@ -133,15 +149,32 @@ background: #1A202C;;
   .Navbar-child1{
     font-size: 17px;
     font-weight: 600;
-  width: 35%;
+  width: 50%;
   }
-  .Navbar-child2{
-    width:60%;
-    font-size: 12px;
-    justify-content: space-evenly;
-  } 
+ 
+  .section_wrapper{
+    display: none;
+    width: 100%;
+  }
+  .open_menu_bar{
+    display: block;
+    position:absolute;
+    left:0;
+    top:53px;
+    transform: 200ms;
+    background-color: rgba(0, 0, 0, 0.7);
+    animation: top_to_bottom 0.3s linear;
+  }
+  .nav_catagory {
+    font-size: 17px;
+    color: white;;
+  }
+  .open_menu_bar>a{
+    display: block;
+    backdrop-filter: blur(1px);
+  }
   .Navbar-child1>h2{
-    color: rgb(254, 145, 25);
+    color:salmon;
     font-size: 25px;
   }
   .Navbar-child1>button{
@@ -151,37 +184,4 @@ background: #1A202C;;
   }
  }
 
- @media only screen and (min-width: 200px) and (max-width: 449px) {
-  .Navbar{
-    padding-top: 15px;;
-    padding-bottom: 10px;
-    
-
-  }
-  .Navbar-child1{
-    font-size: 12px;
-    font-weight: 500;
-    width: 40%;;
-  }
-  .Navbar-child2{
-    width:64%;
-    font-size: 8px;
-    font-weight: 400;
-  justify-content: space-evenly;
-  } 
-  .Navbar-child1>h2{
-    color: rgb(254, 145, 25);
-    font-size: 18px;
-  }
-
-  .Navbar-child1>button{
-    width:5px;
-    margin-left: 5px;;
-    height:15px;
-    border-radius: 30%;
-
-    font-size: 10px;
-  }
-
- }
-
+ 

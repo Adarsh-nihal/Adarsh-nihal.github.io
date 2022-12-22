@@ -1,21 +1,22 @@
 .Project{
     width:65%;
     margin: auto;;
+    margin-top: 100px;;
     text-align: center;
- 
+ overflow: hidden;
 }
 .Project>h1{
-    margin-top: 50px;;
-    font-size: 50px;;
+    
+    font-size: 35px;;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(254, 145, 25);
-
+    color:salmon
 }
 .ProjectGrid{
     margin-top: 50px;;
 
 }
 .ProjectGrid>div:hover{
+    
     transform: scale(1.03);
 }
 .Project1{
@@ -43,19 +44,19 @@
 }
 
 .Project1>.ProjectD>h1{
-    font-size: 30px;;
+    font-size: 25px;;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
     margin-bottom: 20px;
 }
 .Project1>.ProjectD>li{
-    font-size: 18px;;
+    font-size: 15px;;
     padding-left: 40px;
     font-family: sans-serif;
  
 }
 .Project1>.ProjectD>h2{
-    font-size: 18px;;
+    font-size: 16px;;
     padding-top: 30px;
     font-family: sans-serif;
     font-weight: 500;
@@ -88,6 +89,7 @@
 @media only screen and (min-width: 550px) and (max-width: 700px) {
     .Project{
         width:95%; 
+        margin-top: 80px;
     }
     .Project>h1{
         font-size: 46px;;
@@ -129,7 +131,7 @@
         width:100%;
         margin: auto;;
         text-align: center;
-     
+        margin-top: 80px;
     }
     .Project>h1{
         font-size: 35px;;
@@ -184,9 +186,10 @@ margin-left: 25px;
 @media only screen and (min-width: 250px) and (max-width: 449px) {
     .Project{
         width:95%; 
+        margin-top: 60px;
     }
     .Project>h1{
-        font-size: 35px;;
+        font-size: 27px;;
     margin-top: 25px;;
 
     }
