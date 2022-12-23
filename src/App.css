@@ -68,7 +68,7 @@ background: #1A202C;;
 }
 
 .section_wrapper{
-  display: flex;
+display: flex;
   gap:15px;
   animation:bottom_to_top 0.3s linear
 }
