@@ -103,7 +103,6 @@ display: flex;
 .Navbar-child1>h2:hover{
   transform: scale(1.2); 
   cursor: pointer;
-
 }
 .Navbar-child1>h2{
   color:salmon;

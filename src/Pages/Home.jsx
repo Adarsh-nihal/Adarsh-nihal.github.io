@@ -58,16 +58,15 @@ const Home = () => {
          wrapper="p"
          />
          </h1>
-
          <p>I am a web developer with a vast array of knowledge in many different frontend and backend languages, responsive frameworks, database, and best code practices.</p>
          <div className='btn1'>
-       <a  target={"_blank"} href="https://drive.google.com/file/d/1_lLxgSDQA40TQoYdYtWD77HGeBdMC1Du/view?usp=sharing"> 
+       <a  target={"_blank"} href="https://1drv.ms/b/s!Ah3BbXYYS0R4chUWhtusPpSBdM0?e=rKxz1w"> 
        <Button fontSize="13px" fontFamily="sans-serif" className='button' 
        color="black"  bg="skyblue">Resume|<ViewIcon/></Button>
        </a> 
        <a
           target={"_blank"}
-          href="https://drive.google.com/u/0/uc?id=1_lLxgSDQA40TQoYdYtWD77HGeBdMC1Du&export=download"
+          href="https://drive.google.com/u/0/uc?id=1k62ZQZyfZYCcwdS8yU9yDlD0h0RUS0X3&export=download"
         >
           
           <Button  fontSize="13px" ml="5px"  fontFamily="sans-serif" className='button'

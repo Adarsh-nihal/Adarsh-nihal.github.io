@@ -41,7 +41,7 @@ const Projects = () => {
               </h2>
               <a
                 target={"_blank"}
-                href="https://overstack-app-adarsh-nihal.vercel.app/"
+                href="https://overstock-pi.netlify.app/"
               >
                 {" "}
                 <Button
@@ -166,7 +166,7 @@ const Projects = () => {
 
               <a
                 target={"_blank"}
-                href="https://heroic-ice-5830-suvam778781.vercel.app/"
+                href="https://cricket-com-website-clone.vercel.app/"
               >
                 {" "}
                 <Button
