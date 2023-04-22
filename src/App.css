@@ -73,9 +73,9 @@ display: flex;
   animation:bottom_to_top 0.3s linear
 }
 #l{
-  padding: 10px 2px;
+  padding: 8px 2px;
   transition: 200ms;
-  font-size: 18px;
+  font-size: 15px;
   color:  salmon;;;
   
 }
