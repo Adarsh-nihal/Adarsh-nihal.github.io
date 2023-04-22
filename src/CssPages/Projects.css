@@ -19,43 +19,43 @@
     
     transform: scale(1.03);
 }
-.Project1{
+.project-card{
     width:100%;
     margin:auto;
     display: flex;
     border-radius: 15px;
    
 }
-.Project1>div{
+.project-card>div{
     width:80%;
     
 }
-.Project1>div>img{
+.project-card>div>img{
     width:80%;
   margin: auto;;
   margin-top: 60px;;
   margin-bottom: 60px;
 }
 
-.Project1>.ProjectD{
+.project-card>.ProjectD{
     text-align: left;
     color:black;
   
 }
 
-.Project1>.ProjectD>h1{
+.project-card>.ProjectD>h1{
     font-size: 25px;;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.Project1>.ProjectD>li{
+.project-card>.ProjectD>li{
     font-size: 15px;;
     padding-left: 40px;
     font-family: sans-serif;
  
 }
-.Project1>.ProjectD>h2{
+.project-card>.ProjectD>h2{
     font-size: 16px;;
     padding-top: 30px;
     font-family: sans-serif;
@@ -78,7 +78,7 @@
     .Project>h1{
         font-size: 46px;;
     }
-    .Project1>div{
+    .project-card>div{
         width:90%;
         
     }
@@ -94,23 +94,23 @@
     .Project>h1{
         font-size: 46px;;
     }
-    .Project1>div{
+    .project-card>div{
         width:80%;
         
     }
-    .Project1>div>img{
+    .project-card>div>img{
         width:90%;
 
     }
-    .Project1>.ProjectD>h1{
+    .project-card>.ProjectD>h1{
         font-size: 25px;;
        
     }
-    .Project1>.ProjectD>li{
+    .project-card>.ProjectD>li{
         font-size: 15px;;
      
     }
-    .Project1>.ProjectD>h2{
+    .project-card>.ProjectD>h2{
         font-size: 15px;;
         padding-top: 20px;
         font-family: sans-serif;
@@ -138,24 +138,24 @@
     margin-top: 30px;;
 
     }
-    .Project1{
+    .project-card{
         width:90%;
         margin:auto;
         display: flex;
        flex-direction: column;
     }
-    .Project1>div{
+    .project-card>div{
         width:90%;
         
     }
-    .Project1>div>img{
+    .project-card>div>img{
         width:100%;
       margin: auto;;
       margin-top: 20px;;
       margin-left: 20px;
       
     }
-    .Project1>.ProjectD>h1{
+    .project-card>.ProjectD>h1{
         font-size: 26px;;
         margin-left: 40px;
         margin-top: 10px;
@@ -163,13 +163,13 @@
 
 
     }
-    .Project1>.ProjectD>li{
+    .project-card>.ProjectD>li{
         font-size: 17px;;
         font-family: sans-serif;
 margin-left: 25px;
      
     }
-    .Project1>.ProjectD>h2{
+    .project-card>.ProjectD>h2{
         font-size: 18px;;
         padding-top: 10px;
         margin-left: 40px;
@@ -193,24 +193,24 @@ margin-left: 25px;
     margin-top: 25px;;
 
     }
-    .Project1{
+    .project-card{
         width:95%;
         margin:auto;
         display: flex;
        flex-direction: column;
     }
-    .Project1>div{
+    .project-card>div{
         width:90%;
         
     }
-    .Project1>div>img{
+    .project-card>div>img{
         width:100%;
       margin: auto;;
       margin-top: 15px;;
       margin-left: 20px;
       
     }
-    .Project1>.ProjectD>h1{
+    .project-card>.ProjectD>h1{
         font-size: 23px;;
         margin-left: 40px;
         margin-top: 8px;
@@ -219,13 +219,13 @@ margin-left: 25px;
 
 
     }
-    .Project1>.ProjectD>li{
+    .project-card>.ProjectD>li{
         font-size: 14px;;
         font-family: sans-serif;
 margin-left: 25px;
      
     }
-    .Project1>.ProjectD>h2{
+    .project-card>.ProjectD>h2{
         font-size: 14px;;
         padding-top: 8px;
         margin-left: 40px;

@@ -72,31 +72,31 @@ display: flex;
   gap:15px;
   animation:bottom_to_top 0.3s linear
 }
-.nav_catagory {
+#l{
   padding: 10px 2px;
   transition: 200ms;
   font-size: 18px;
   color:  salmon;;;
   
 }
-.nav_catagory:hover {
+#nav>#l:hover {
   background-color: #0e5e6f;
   border-radius: 7px;
 }
-.nav_catagory::before {
+#nav>#l::before {
   content: "<";
   visibility: hidden;
 }
-.nav_catagory:hover::before {
+#nav>#l:hover::before {
   content: "<";
   visibility: visible;
   animation: rotate 20s linear infinite;
 }
-.nav_catagory::after {
+#nav>#l::after {
   content: "/>";
   visibility: hidden;
 }
-.nav_catagory:hover::after {
+#nav>#l:hover::after {
   content: "/>";
   visibility: visible;
 }
@@ -126,7 +126,7 @@ display: flex;
     width:30%;
   
   }
-  .nav_catagory {
+  #l{
     padding: 10px 0px;
     transition: 200ms;
     font-size: 14px;
@@ -164,7 +164,7 @@ display: flex;
     background-color: rgba(0, 0, 0, 0.7);
     animation: top_to_bottom 0.3s linear;
   }
-  .nav_catagory {
+  #l{
     font-size: 17px;
     color: white;;
   }

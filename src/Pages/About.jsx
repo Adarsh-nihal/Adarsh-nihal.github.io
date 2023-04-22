@@ -5,7 +5,7 @@ import {Link,}
 import "../CssPages/About.css"
 const About = () => {
   return (
-    <div id='aboutScroll'>
+    <div id="about"  class="about section" >
 
  <div className='About' data-aos="fade-up"
     data-aos-offset="-100"
@@ -16,8 +16,8 @@ const About = () => {
     data-aos-once="false"
     data-aos-anchor-placement="top-center">
     <h1 >About</h1>
-    <h2>I'm Adarsh Gupta</h2>
-    <p>Observant & detail-oriented aspiring full-stack web developer with a specialization in MERN stack. Judicious & creative when crafting web applications & platforms to propel competitive advantage & revenue growth. Looking forward to honing his skills in a challenging work environment.</p>
+    <h2 id="user-detail-name">I'm Adarsh Gupta</h2>
+    <p id="user-detail-intro">Observant & detail-oriented aspiring full-stack web developer with a specialization in MERN stack. Judicious & creative when crafting web applications & platforms to propel competitive advantage & revenue growth. Looking forward to honing his skills in a challenging work environment.</p>
 <p>Drop a mail @ <Link href="mailto:aadarsh474747@gmail.com"><span style={{textDecoration:"underline",color:"salmon",cursor:"pointer"}}>
     adarsh474747@gmail.com </span></Link> <EmailIcon/> </p>
  </div>
