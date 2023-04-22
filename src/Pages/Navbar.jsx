@@ -10,6 +10,7 @@ import {
   HamburgerIcon,
   CalendarIcon,
   MoonIcon,
+  DownloadIcon,
 } from "@chakra-ui/icons";
 import styled from "styled-components";
 import MenuButton from "./MenuButton";
@@ -22,6 +23,9 @@ const Navbar = ({ handleClick, theme }) => {
   const toggleMenu = () => {
     setOpenMenuBar(!openMenuBar);
   };
+  const openLink = (url) => {
+    window.open(url);
+};
   return (
     <div
       className="Navbar"
@@ -110,6 +114,23 @@ const Navbar = ({ handleClick, theme }) => {
             Contact
           </h2>
         </Link>
+        <div>
+                        <a
+                            href="https://drive.google.com/u/0/uc?id=1Ff924iza0LX93iNrVqgl7K0OrDnrTwh1&export=download"
+                            className="nav-link resume"
+                            id="resume-link-1">
+                            <div
+                                onClick={() =>
+                                    openLink(
+                                        "https://drive.google.com/file/d/1Ff924iza0LX93iNrVqgl7K0OrDnrTwh1/view?usp=share_link"
+                                    )
+                                }
+                                className="navbar-resume"
+                                id="resume-button-1">
+                               <h2 id="l"> Resume <DownloadIcon /></h2>
+                            </div>
+                        </a>
+                    </div>
       </div>
     </div>
   );
