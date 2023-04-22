@@ -74,10 +74,10 @@ const Contact = () => {
               <Icon w={[4, 5]} h={12} as={BsLinkedin} />
             </Button>
           </a>
-          <a target={"_blank"} href="tel:+919161674761">
+          <a target={"_blank"}  href="tel:+919161674761">
             {" "}
-            <Button id="contact-phone" className="btn2" bg="#48BB78" ml="20px">
-              <PhoneIcon w={[4, 5]} h={12} />
+            <Button className="btn2" id="contact-phone"  bg="#48BB78" ml="20px">
+             . <PhoneIcon w={[4, 5]} h={12} />
             </Button>
           </a>
           <a target={"_blank"} href="mailto:adarsh474747@gmail.com">
@@ -92,7 +92,7 @@ const Contact = () => {
               ]}
               ml="20px"
             >
-              <EmailIcon w={[4, 5]} h={12} />
+              .<EmailIcon w={[4, 5]} h={12} />
             </Button>
           </a>
         </div>

@@ -79,24 +79,24 @@ display: flex;
   color:  salmon;;;
   
 }
-#nav>#l:hover {
+#l:hover {
   background-color: #0e5e6f;
   border-radius: 7px;
 }
-#nav>#l::before {
+#l::before {
   content: "<";
   visibility: hidden;
 }
-#nav>#l:hover::before {
+#l:hover::before {
   content: "<";
   visibility: visible;
   animation: rotate 20s linear infinite;
 }
-#nav>#l::after {
+#l::after {
   content: "/>";
   visibility: hidden;
 }
-#nav>#l:hover::after {
+#l:hover::after {
   content: "/>";
   visibility: visible;
 }

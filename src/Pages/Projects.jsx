@@ -61,7 +61,7 @@ const Projects = () => {
               <a
                 target={"_blank"}
                 href="https://github.com/Adarsh-nihal/-utopian-cover-8281"
-                className="project-deployed-link"
+                className='project-github-link'
               >
                 {" "}
                 <Button

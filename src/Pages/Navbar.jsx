@@ -41,7 +41,7 @@ const Navbar = ({ handleClick, theme }) => {
         <MenuButton openMenuBar={openMenuBar} />
       </MenuWrapper>
       <div
-        id="nav"
+       
         className={`section_wrapper ${openMenuBar ? "open_menu_bar" : ""}`}
       >
         <Link

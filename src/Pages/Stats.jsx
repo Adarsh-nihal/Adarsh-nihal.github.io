@@ -18,7 +18,7 @@ const Stats = () => {
     data-aos-once="false"
     data-aos-anchor-placement="top-center">
         <a href="https://github.com/Adarsh-nihal">
-          <img
+          <img id="github-streak-stats"
             align="left"
             src="https://github-readme-streak-stats.herokuapp.com?user=Adarsh-nihal&theme=radical"
           />
@@ -34,6 +34,7 @@ const Stats = () => {
     data-aos-anchor-placement="top-center">
         <a href="https://github.com/Adarsh-nihal">
           <img 
+          id="github-stats-card"
             align="left"
             src="https://github-readme-stats.vercel.app/api?username=Adarsh-nihal&theme=radical&count_private=true&show_icons=true" //stats
           />
@@ -52,6 +53,7 @@ const Stats = () => {
     data-aos-anchor-placement="top-center">
         <a href="https://github.com/Adarsh-nihal">  
           <img
+          id="github-top-langs"
             align="center"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adarsh-nihal&theme=radical"  //launguages
           />
