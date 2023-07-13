@@ -1,0 +1,109 @@
+.Stats{
+    margin:auto;
+    margin-top: 100px;;
+    width:80%;
+    text-align:center;
+    overflow: hidden;
+}
+.Stats>h1{
+    font-size: 30px;;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:salmon;
+    margin-bottom: 30px;;
+}
+.StatsChild1{
+width:90%;
+margin:auto;
+display:flex;
+
+} 
+.StatsChild1>a:hover{
+    transform: scale(1.1);
+}
+.StatsChild1>a~a{
+    margin-left: 20px;
+}
+.StatsChild2{
+    margin: auto;
+    margin-top: 30px;
+     width: 35%;
+           
+}
+.StatsChild2:hover{
+    transform: scale(1.1);
+}
+@media only screen and (min-width: 751px) and (max-width: 950px) {
+
+    .Stats{
+        width:85%;
+        text-align:center;
+    }
+
+    .StatsChild1{
+        width:100%;
+        
+        }
+
+
+}
+
+
+@media only screen and (min-width: 550px) and (max-width: 750px) {
+    .Stats{
+        width:96%;
+        text-align:center;
+    }
+    .Stats>h1{
+        font-size: 25px;;
+    }
+    .StatsChild1{
+        width:100%;
+       
+        
+        }
+        .StatsChild2{
+            margin: auto;
+            margin-top: 15px;
+             width: 35%;
+               
+                
+        } 
+
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 549px) {
+    .Stats{
+        width:90%;
+        text-align:center;
+    margin-top: 50px;;
+
+    }
+    .Stats>h1{
+        font-size: 20px;;
+    }
+    .StatsChild1{
+        width:90%;
+        display:flex;
+        flex-direction: column;
+        }
+        .StatsChild2{
+            margin: auto;
+            margin-top: 15px;
+             width: 35%;
+               
+                
+        } 
+        .StatsChild1>a~a{
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+        .StatsChild2{
+            margin: auto;
+            margin-top: 15px;
+             width: 90%;
+                
+        } 
+
+
+}

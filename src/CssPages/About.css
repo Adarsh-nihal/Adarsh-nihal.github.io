@@ -1,0 +1,84 @@
+
+.About{
+    width:55%;
+    margin: auto;;
+    margin-top: 110px;;
+    text-align: center;
+    overflow: hidden;
+}
+.About>h1{
+    font-size: 35px;;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:salmon
+
+}
+.About>h2{
+    color:salmon;;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.About>p{
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 400;
+    color:white
+}
+.About>p~p{
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 449px) {
+    .About{
+        color:white;
+        width:100%;
+        margin: auto;;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .About>h1{
+        font-size: 30px;; 
+    }
+    .About>h2{
+        color: salmon;;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .About>p{
+        margin-top: 12px;
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .About>p~p{
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 450px) and (max-width: 650px) {
+    .About{
+        color:white;
+        width:100%;
+        margin: auto;;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .About>h1{
+        font-size: 40px;; 
+    }
+    .About>h2{
+        color: salmon;;
+        font-size: 30px;
+        margin-top:30px;
+    }
+    .About>p{
+        margin-top: 12px;
+        font-size: 15px;
+    }
+    .About>p~p{
+        margin-top: 30px;
+    }
+
+
+}

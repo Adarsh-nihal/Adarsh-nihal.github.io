@@ -1,0 +1,233 @@
+.Home{
+    width: 100%;
+    display: flex;
+    overflow:hidden;
+    justify-content: space-around;
+   }
+   .Home-child1{
+    width: 40%;;
+
+   }
+   .Img{
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 170px;
+    
+   }
+.round_css{
+  
+}
+   .Home-child2{
+    width: 40%;;
+   }
+   .Home-child2>h5{
+    margin-top: 90px;
+    color:skyblue;;
+    font-size: 35px;
+    margin-left: 50px;
+   }
+   .Home-child2>h1{
+    margin-top: 20;
+    color:skyblue;
+    font-size: 18px;
+    margin-left: 50px;
+   }
+   .Home-child2>h2{
+    color:salmon;;
+    font-size: 40px;
+    margin-left: 50px;
+   }
+  
+   .Home-child2>p{
+    font-size: 16px;
+    color:white;
+    margin-left: 50px;
+    margin-right: 40px;;
+   }
+  
+   .btn1{
+    margin: auto;;
+    margin-left: 50px;;
+    margin-top: 30px;
+   }
+  
+   .button:hover{
+    transform: scale(1.1);
+   }
+   .btn1>button:nth-child(1){
+  background:salmon;;
+   }
+   .slider{ 
+    margin-top: 100px;
+}
+
+
+   @media only screen and (min-width: 601px) and (max-width: 900px) {
+
+    .Home{
+        width: 100%;
+        display: flex;;
+    
+       }
+       .Home-child1{
+        width: 100%;
+       }
+       .Img{
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 70px;
+     }
+     .Home-child2{
+      width: 100%;;
+      margin-top: 20px;
+     }
+     .Home-child2:first-child{
+      margin-top: 30px;
+      text-align: center;
+      margin-left: 0px;
+     }
+     .Home-child2>h2{
+      font-size: 45px;
+     text-align: center;
+     margin-left: 0px;;
+     }
+     .Home-child2>p{
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+     }
+     .btn1{
+        align-items: center;
+      margin-top: 30px;
+    margin-left: 0px;;
+    text-align: center;
+  
+
+     }
+       .btn1>button{
+        margin-left: 20px;
+       }
+       .slider{ 
+        margin-top: 80px;
+    }
+    
+   }
+  
+  
+   @media only screen and (min-width: 450px) and (max-width: 650px) {
+    .Home{
+      width: 100%;
+      display: flex;;
+      flex-direction: column;
+     }
+     .Home-child1{
+      width: 100%;
+     }
+     .Img{
+      width: 80%;
+      margin-top: 50px;
+      margin-left: 70px;
+   }
+   .Home-child2{
+    width: 100%;;
+   }
+   .Home-child2>h1{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 0px;;
+   }
+   .Home-child2>h2{
+    font-size: 45px;
+   text-align: center;
+   margin-left: 0px;;
+
+   }
+   .Home-child2>h5{
+    text-align: center;
+    margin-top: 80px;
+    color:skyblue;;
+    font-size: 35px;
+   }
+   .Home-child2>p{
+    text-align: center;
+    margin-left: 10px;;
+margin-right: 10px;
+   }
+   .btn1{
+    align-items: center;
+    margin-left: 0px;;
+    text-align: center;
+    margin-top: 30px;
+   }
+   .slider{ 
+    margin-top: 60px;
+}
+  
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 449px) {
+    .Home{
+        width: 100%;
+        display: flex;;
+        flex-direction: column;
+       }
+       .Home-child1{
+        width: 100%;
+       }
+       .Img{
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 50px;
+     }
+     .Home-child2{
+      width: 98%;;
+      margin:auto
+     }
+     .Home-child2>h1{
+        font-size: 18px;
+      margin-top: 10px;
+      margin-left: 8px;
+      margin-right: 8px;
+
+      text-align: center;
+     }
+     .Home-child2>h2{
+  
+      font-size: 35px;
+      text-align: center;
+      margin-left: 0px;
+
+
+     }
+     .Home-child2>h5{
+      text-align: center;
+      margin-top: 30px;
+      color:skyblue;;
+      font-size: 25px;
+     }
+     .Home-child2>p{
+      text-align: center;
+      font-size: 14px;
+      margin-left: 10px;
+      margin-right: 10px;;
+      margin-top: 5px;
+     }
+     .btn1{
+      margin-top: 30px;
+      font-size: 10px;
+      
+    margin-left: 0px;;
+    text-align: center;
+
+     }
+     .btn1>button{
+      font-size: 12px;;
+      align-items: center;
+
+       }
+       .slider{ 
+        margin-top: 40px;
+    }
+   
+
+  }
