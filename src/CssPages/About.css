@@ -43,6 +43,7 @@
         color: salmon;;
         margin-top: 20px;
         font-size: 20px;
+
     }
     .About>p{
         margin-top: 12px;
@@ -52,6 +53,7 @@
     }
     .About>p~p{
         margin-top: 30px;
+
     }
 
 }
@@ -78,6 +80,7 @@
     }
     .About>p~p{
         margin-top: 30px;
+
     }
 
 

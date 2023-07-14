@@ -17,7 +17,7 @@ const About = () => {
     data-aos-anchor-placement="top-center">
     <h1 >About</h1>
     <h2 id="user-detail-name">I'm Adarsh Gupta</h2>
-    <div style={{color:"white"}}  id="user-detail-intro">A full stack web developer/MERN developer with 1000+ hours of coading experiance. My objective is simply
+    <div style={{color:"white",marginLeft:'10px',marginRight:"10px"}}  id="user-detail-intro">A full stack web developer/MERN developer with 1000+ hours of coading experiance. My objective is simply
                 to be the
                 best web developer that i can be and to contribute to the technology industry all that i know.
                 A quick learner and problem solver who can compete with the fast growing tech industry. Experties in

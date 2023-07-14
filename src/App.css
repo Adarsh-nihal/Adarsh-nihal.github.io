@@ -1,193 +1,195 @@
 
 .App {
 
-background: #1A202C;;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
+  background: #1A202C;;
+  }
+  
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-.Navbar{
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  align-items: center;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;;
-  z-index:4;
-  padding-top: 17px;;
-  padding-bottom: 12px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;  
-  padding-left: 10px;
-}
- .Navbar-child1{
-  width:20%;
-  display: flex;;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-  font-size: 28px;
-  font-weight: 1000;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- 
-
-}
-
-.section_wrapper{
-display: flex;
-  gap:15px;
-  animation:bottom_to_top 0.3s linear
-}
-#l{
-  padding: 8px 2px;
-  transition: 200ms;
-  font-size: 15px;
-  color:  salmon;;;
   
-}
-#l:hover {
-  background-color: #0e5e6f;
-  border-radius: 7px;
-}
-#l::before {
-  content: "<";
-  visibility: hidden;
-}
-#l:hover::before {
-  content: "<";
-  visibility: visible;
-  animation: rotate 20s linear infinite;
-}
-#l::after {
-  content: "/>";
-  visibility: hidden;
-}
-#l:hover::after {
-  content: "/>";
-  visibility: visible;
-}
-.Navbar-child1>h2:hover{
-  transform: scale(1.2); 
-  cursor: pointer;
-}
-.Navbar-child1>h2{
-  color:salmon;
-  font-size: 35px;
-}
-.Navbar-child1>button{
-  background: #000;
-  color: white;
-  border-radius: 10px;
-}
-
-@media only screen and (min-width: 676px) and (max-width: 965px) {
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
   .Navbar{
-    padding-top: 15px;;
-    padding-bottom: 10px;
-padding-left: 10px;
-  }
-  .Navbar-child1{
-    font-size: 20px;
-    font-weight: 600;
-    width:50%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;;
+    z-index:4;
+    padding-top: 17px;;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;  
   
+  }
+   .Navbar-child1{
+    width:20%;
+    display: flex;;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 1000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  
+  }
+  
+  .section_wrapper{
+  display: flex;
+    gap:15px;
+    animation:bottom_to_top 0.3s linear
   }
   #l{
-    padding: 10px 0px;
+    padding: 8px 2px;
     transition: 200ms;
-    font-size: 14px;
-    color: salmon;;
+    font-size: 15px;
+    color:  salmon;;;
+    
   }
-
-.Navbar-child1>h2{
-  color:salmon;
-  font-size: 32px;
-}
-
-  .section_wrapper{
-    display: none;
-    width: 100%;
+  #l:hover {
+    background-color: #0e5e6f;
+    border-radius: 7px;
   }
-  
-}
-
-@media screen and (max-width: 675px) {
-  .Navbar{
-    padding-top: 15px;;
-    padding-bottom: 10px;
-    padding-left: 10px;
-
+  #l::before {
+    content: "<";
+    visibility: hidden;
   }
-  .Navbar-child1{
-    font-size: 17px;
-    font-weight: 600;
-  width: 55%;
+  #l:hover::before {
+    content: "<";
+    visibility: visible;
+    animation: rotate 20s linear infinite;
   }
- 
-  .open_menu_bar{
-    display: block;
-    position:absolute;
-    left:0;
-    top:53px;
-    transform: 200ms;
-    background-color: rgba(0, 0, 0, 0.7);
-    animation: top_to_bottom 0.3s linear;
+  #l::after {
+    content: "/>";
+    visibility: hidden;
   }
-  .section_wrapper{
-    display: none;
-    width: 100%;
+  #l:hover::after {
+    content: "/>";
+    visibility: visible;
   }
-  #l{
-    font-size: 17px;
-    color: white;;
-  }
-  .open_menu_bar>a{
-    display: block;
-    backdrop-filter: blur(1px);
+  .Navbar-child1>h2:hover{
+    transform: scale(1.2); 
+    cursor: pointer;
   }
   .Navbar-child1>h2{
     color:salmon;
-    font-size: 25px;
+    font-size: 35px;
   }
   .Navbar-child1>button{
-    width:40px;
-    margin-left: 20px;;
-    height:30px;
+    background: #000;
+    color: white;
+    border-radius: 10px;
   }
- }
+  
+  @media only screen and (min-width: 676px) and (max-width: 965px) {
+    .Navbar{
+      padding-top: 15px;;
+      padding-bottom: 10px;
+      padding-left: 15px;
+  
+    }
+    .Navbar-child1{
+      font-size: 20px;
+      font-weight: 600;
+      width:50%;
+    
+    }
+    #l{
+      padding: 10px 0px;
+      transition: 200ms;
+      font-size: 14px;
+      color: salmon;;
+    }
+  
+  .Navbar-child1>h2{
+    color:salmon;
+    font-size: 32px;
+  }
+  .section_wrapper{
+    display: none;
+    width: 100%;
+  }
+  }
+  
+  @media screen and (max-width: 675px) {
+    .Navbar{
+      padding-top: 15px;;
+      padding-bottom: 10px;
+      padding-left: 15px;
 
- 
+  
+    }
+    .Navbar-child1{
+      font-size: 17px;
+      font-weight: 600;
+    width: 55%;
+    }
+   
+    .section_wrapper{
+      display: none;
+      width: 100%;
+    }
+    .open_menu_bar{
+      display: block;
+      position:absolute;
+      left:0;
+      top:53px;
+      transform: 200ms;
+      background-color: rgba(0, 0, 0, 0.7);
+      animation: top_to_bottom 0.3s linear;
+    }
+    #l{
+      font-size: 17px;
+      color: white;;
+    }
+    .open_menu_bar>a{
+      display: block;
+      backdrop-filter: blur(1px);
+    }
+    .Navbar-child1>h2{
+      color:salmon;
+      font-size: 25px;
+    }
+    .Navbar-child1>button{
+      width:40px;
+      margin-left: 20px;;
+      height:30px;
+    }
+   }
+  
+
+

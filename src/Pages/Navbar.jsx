@@ -42,11 +42,11 @@ const Navbar = ({ handleClick, theme }) => {
          <Button onClick={handleClick}>
           {theme ? <SunIcon cursor="pointer" /> : <MoonIcon cursor="pointer" />}
         </Button></div> 
-        <MenuWrapper onClick={toggleMenu}>
+       
+      </div>
+      <MenuWrapper onClick={toggleMenu}>
         <MenuButton openMenuBar={openMenuBar} />
       </MenuWrapper>
-      </div>
-      
       <div className={`section_wrapper ${openMenuBar ? "open_menu_bar" : ""}`}>
         <Link
           to="hero"
