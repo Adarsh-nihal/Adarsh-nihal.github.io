@@ -5,6 +5,12 @@
     text-align: center;
  overflow: hidden;
 }
+.project-description{
+    margin-top: -15px;
+    font-weight: 600;
+    color: rgb(44, 27, 27);
+    margin-bottom: 15px;
+}
 .Project>h1{
     
     font-size: 35px;;
@@ -71,6 +77,7 @@
     transform:scale(1.16);
     color: black;
 }
+
 @media only screen and (min-width: 701px) and (max-width: 900px) {
     .Project{
         width:95%; 

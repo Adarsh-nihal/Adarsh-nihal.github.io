@@ -33,9 +33,10 @@ function App() {
       <Navbar handleClick={handleClick} theme={theme} />
       <Home />
       <About />
+      <Experience/>
+
       <Skills />
       <Projects />
-      <Experience/>
       <Contact />
       </div>
     </div>

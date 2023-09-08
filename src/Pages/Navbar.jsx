@@ -74,6 +74,20 @@ const Navbar = ({ handleClick, theme }) => {
           </h2>
         </Link>
         <Link
+          to="expereniceScroll"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={700}
+          onClick={closeMenu}
+        >
+          {" "}
+          <h2 className="nav-link contact" id="l">
+            <StarIcon style={{ marginTop: "-3px" }} />
+            Experience
+          </h2>
+        </Link>
+        <Link
           to="SkillScroll"
           spy={true}
           smooth={true}
@@ -100,20 +114,7 @@ const Navbar = ({ handleClick, theme }) => {
             <AttachmentIcon style={{ marginTop: "-3px" }} /> Projects
           </h2>
         </Link>
-        <Link
-          to="expereniceScroll"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={700}
-          onClick={closeMenu}
-        >
-          {" "}
-          <h2 className="nav-link contact" id="l">
-            <StarIcon style={{ marginTop: "-3px" }} />
-            Experience
-          </h2>
-        </Link>
+        
         <Link
           to="contactScroll"
           spy={true}

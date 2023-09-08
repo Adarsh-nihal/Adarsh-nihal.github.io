@@ -31,14 +31,14 @@ const Projects = () => {
             </div>
             <div className="ProjectD">
               <h1 className="project-title">Overstock</h1>
-
-              <li className="project-description">
+              <h4 className="project-description">Let Overstock.com help you discover designer brands & home goods at the lowest prices online. With free shipping on EVERYTHING*.</h4>
+              <li>
                 Created the Sign-in and Sign-up functionality using firebase.
               </li>
               <li>Created all category of Products pages .</li>
               <li>Created cart pages</li>
               <li>Created admin panel and user panel.</li>
-              <h2 class="project-tech-stack">
+              <h2 class="project-tech-stack" style={{fontWeight:"700"}}>
                 Tech stack- React | Redux | JAVASCRIPT | Css | Chakra-Ui |
                 Json-server
               </h2>
@@ -97,8 +97,9 @@ const Projects = () => {
             </div>
             <div className="ProjectD">
               <h1  className='project-title'>Anthroplogie</h1>
+              <h4 className="project-description">Explore Anthropologie's unique collection of women's clothing, accessories, home décor, furniture, gifts and more. 24/7 free shipping on orders $150+*. </h4>
 
-              <li className='project-description'>
+              <li >
                 Created the Sign-in and Sign-up functionality using Backened
                 database.
               </li>
@@ -106,7 +107,7 @@ const Projects = () => {
               <li>Created cart pages</li>
               <li>Payment and other pages</li>
               <li>Created admin panel and user panel.</li>
-              <h2 className='project-tech-stack'>
+              <h2 className='project-tech-stack' style={{fontWeight:"700"}}>
                 Tech stack- React | Redux | Mongo DB | Express JS |Chakra-Ui |
                 Json-server
               </h2>
@@ -158,17 +159,20 @@ const Projects = () => {
           >
             <div>
               <img className='project-img' src="https://user-images.githubusercontent.com/82999625/141300168-4b13c935-07f4-4a74-8b20-ef971b855283.png" />
+            
             </div>
+
             <div className="ProjectD">
               <h1 className='project-title'>Cricket.com</h1>
+              <h4 className="project-description">Get live cricket scores, scorecard updates, match schedule, predictions & results, stats, latest news & videos of all international, domestic & T20 series</h4>
 
-              <li className='project-description'>Created the Sign-in and Sign-up functionality.</li>
+              <li >Created the Sign-in and Sign-up functionality.</li>
               <li>Used latest cricket api,filter and search functionality.</li>
               <li>
                 Provided results, stats, latest news & videos of all
                 international, domestic & T20 series.{" "}
               </li>
-              <h2 className='project-tech-stack'>Tech stack- HTML | CSS | JAVASCRIPT</h2>
+              <h2 className='project-tech-stack'  style={{fontWeight:"700"}}>Tech stack- HTML | CSS | JAVASCRIPT</h2>
 
               <a
                 target={"_blank"}
@@ -229,11 +233,12 @@ const Projects = () => {
             </div>
             <div className="ProjectD">
               <h1 className='project-title'>Mentimeter</h1>
+              <h4 className="project-description">Mentimeter enables you to: Engage with students using live polls, word clouds, quizzes, multiple-choice questions and more.I Created the Sign-in and Sign-up functionality. Created two-three pages. Good UI with navbar.</h4>
 
-              <li className='project-description'>Created the Sign-in and Sign-up functionality.</li>
+              <li >Created the Sign-in and Sign-up functionality.</li>
               <li>Created two-three pages.</li>
               <li>Good UI with navbar.</li>
-              <h2 className='project-tech-stack'>Tech stack- HTML | CSS | JAVASCRIPT</h2>
+              <h2 className='project-tech-stack' style={{fontWeight:"700"}}>Tech stack- HTML | CSS | JAVASCRIPT</h2>
 
               <a
                 target={"_blank"}
